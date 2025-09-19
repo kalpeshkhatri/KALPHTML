@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML PAGES (click on Internet or HTML)</h2>
+
+    <table border="1" cellspacing="45" cellpadding="40">
+        <tr>
+            <td><a href="./index.html">HTML</a></td>
+            <td><a href="./main.html" >Internet</a></td>
+            <td><a href="./support.html">Support</a></td>
+            <td><a href="./SpecialThanks.html">Special Thanks</a></td>
+        </tr>
+    </table>
+
+
+
+
+
+    <!-- ----------------------------- -->
+    <h2>HTML Boiler plate</h2>
+    <pre>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Your content goes here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<ul>
+    <p><strong>&lt !DOCTYPE html&gt;</strong></p>
+    <li>Declares the document type and version of HTML (HTML5 here).</li>
+    <li>Helps the browser render the page correctly.</li>
+
+    <p><strong>&lt;html lang="en"&gt;</html></strong></p>
+    <li>The root element of the HTML document.</li>
+    <li>lang="en" specifies the language of the document (English).</li>
+
+    <p><strong>&lt;head&gt;</strong></p>
+    <li>Contains meta-information about the document (not visible on the page).</li>
+    <li type="none"><ul>
+        <li><strong>&lt;meta charset="UTF-8"&gt;</strong></li>
+        <li>Sets the character encoding for the page to UTF-8 (supports most characters).</li>
+        <li><strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</strong></li>
+        <li>Ensures responsive design on mobile devices by controlling layout scaling.</li>
+        <li><strong>&lt;title&gt;</strong></li>
+        <li>Sets the title of the page that appears in the browser tab.</li>
+        <li><strong>Optional elements inside &lt;<head></head>
+        <gt></gt></strong></li>
+        <li>&lt;link&gt;=> To include CSS files.</li>
+        <li>&lt;script&gt;=>To include JavaScript files</li>
+        <li>&lt;meta&gt;=>Additional metadata (like description, keywords, author).</li>
+    </ul></li>
+
+    <p><strong>&lt;body&gt;</strong></p>
+    <li>Contains all the visible content of the page, like text, images, buttons, etc.</li>
+</ul>
+
+
+    <h2>TAG INFORMATION</h2>
+    <table border="1"> 
+        <thead>
+            <tr>
+                <th>Tag Name</th>
+                <th>Tag Notation</th>
+                <th>Attribute</th>
+                <th>Attribute Value</th>
+                <th>Description</th>
+                <th>HTML Code</th>
+                <th>Live HTML page on browser</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Heading tag -->
+            <tr>
+                <td><strong>Heading Tag</strong></td>
+                <td>
+                    <ul>
+                        <li>&lt;h1&gt; </li>
+                        <li>&lt;h2&gt;</li>
+                        <li>&lt;h3&gt;</li>
+                        <li>&lt;h4&gt;</li>
+                        <li>&lt;h5&gt;</li>
+                        <li>&lt;h6&gt;</li>
+                    </ul>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>h1 tag is used for main subject of webpage.</li>
+                        <li>Its use in SEO. </li>
+                        <li>USe only one h1 tag in webpage</li>
+                        <li>Always use heading tags in sequence</li>
+                        <li>&lt;h1&gt;heading should be used for main heading, followed by &lt;h2&gt; heading, then less important &lt;h3&gt; and so on. </li>
+                        <li>Each heading has default size.</li>
+                    </ul>
+                    </td>
+                <td>
+                    <ul>
+                        <li>&lt;h1&gt;Heading 1 &lt;h1&gt;</li>
+                        <li>&lt;h2&gt;Heading 2 &lt;h1&gt;</li>
+                        <li>&lt;h3&gt;Heading 3 &lt;h1&gt;</li>
+                        <li>&lt;h4&gt;Heading 4 &lt;h1&gt;</li>
+                        <li>&lt;h5&gt;Heading 5 &lt;h1&gt;</li>
+                        <li>&lt;h6&gt;Heading 6 &lt;h1&gt;</li>
+                    </ul>
+                    </td>
+                <td>
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </td>
+            </tr>
+
+            <!-- peragraph tag -->
+            <tr>
+                <td><strong>Peragraph Tag</strong></td>
+                <td><ul><li>&lt;p&gt;</li></ul></td>
+                
+                
+                <td></td>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>Browser automatically add some margin before and after peragraph tag</li>
+                        <li>Peragraph always starts on new line.</li>
+                        <li>Extra space and extra line will remove while display.</li>
+                    </ul>
+
+                </td>
+                <td>
+                    <ul>
+                        <li>&lt;p&gt;This is a paragraph&lt;/p&gt;</li>
+                        <li><pre>&lt;p&gt;This peragraph have     extra space and     
+                            
+                            extra line. &lt;/p&gt;
+                            </pre>
+                            
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <p>This is a paragraph</p>
+                    <p>This peragraph have     extra space and     
+                            
+                            extra line. </p>
+                </td>
+            </tr>
+
+            <!-- span tag -->
+            <tr>
+                <td><strong>Span tag</strong></td>
+                <td><ul><li>&lt;span&gt;</li></ul></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>inline element</li>
+                        <li>don't go to next line means stays within text flow </li>
+                        <li>Styling small parts (words/phrases)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>&lt;p&gt;My name is &lt;span&gt;Kalpesh.&lt;/span&gt;&lt;/p&gt;</li>
+                    </ul>
+                </td>
+                <td><p>My name is <span>Kalpesh.</span></p></td>
+            </tr>
+
+            <!-- div tag -->
+            <tr>
+                <td><strong>Div tag</strong></td>
+                <td><ul><li>&lt;div&gt;</li></ul></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>Block-level element → always starts on a new line and stretches across the page.</li>
+                        <li>Used as a container for other HTML tags.</li>
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><pre>
+&lt;div&gt;
+    &lt;h4&gt;About Me&lt;/h4&gt;
+    &lt;p&gt;I am learning web development from coder army.&lt;/p&gt;
+&lt;/div&gt;
+                            </pre>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <div>
+                        <h4>About Me</h4>
+                        <p>I am learning web development from coder army.</p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- horizontal rules -->
+            <tr>
+                <td><strong>Horizontal Rules</strong></td>
+                <td><ul><li>&lt;hr&gt;</li></ul></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>hr tag defines thematic break in an HTML page.</li>
+                        <li>hr tag is used to seperate content in html page.</li>
+                        <li>hr tag is a empty tag, which means that it has no end tag</li>
+
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>&lt;p&gt;My name is Kalpesh.&lt;p&gt;</li>
+                        <li>&lt;hr&gt;</li>
+                        <li>&lt;p&gt;My favourite teacher is Rohit Negi.&lt;p&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <p>My name is Kalpesh.</p>
+                    <hr>
+                    <p>My favourite teacher is Rohit Negi.<p></p>
+                </td>
+            </tr>
+
+
+            <!-- line break -->
+            <tr>
+                <td><strong>Line break</strong></td>
+                <td><ul><li>&lt;br&gt;</li></ul></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>If you want a line break without starting a new paragraph.</li>
+                        <li>br tag is a empty tag, which means that it has no end tag</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>&lt;p&gt;My name is Kalpesh.&lt;br&gt;My father name is Ganpatlal.  &lt;/p&gt;</li>
+                    </ul>
+                </td>
+                <td><p>My name is Kalpesh.<br>My father name is Ganpatlal. </p></td>
+            </tr>
+
+            <!-- preformatted tag -->
+            <tr>
+                <td><strong>Preformatted tag</strong></td>
+                <td><ul><li>&lt;pre&gt;</li></ul></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>Pre tag is preserves both spaces and line breaks.</li>
+                        <li>displayed in fixed-width font usually Courier.</li>
+                    </ul>
+                </td>
+                <td><pre>&lt;pre&gt;
+    My name is Kalpesh.
+    My favourite teacher is Rohit Negi.&lt;pre&gt;</pre></td>
+                <td>
+                  <pre>
+My name is Kalpesh.
+My favourite teacher is Rohit Negi.<pre>
+                </td>
+            </tr>
+
+            <!-- list -->
+            <tr>
+                <td colspan="7"><strong>List</strong></td>
+
+            </tr>
+
+            <!-- unordered list -->
+            <tr>
+                <td><strong>Unordered list</strong></td>
+                <td><ul><li>&lt;ul&gt;</li></ul></td>
+                <td>
+                    <ul>
+                        <li>style="list-style-type:disc"</li>
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>disc=>Sets the list item marker to a bullet (default)</li>
+                        <li>circle=>circle</li>
+                        <li>square=>square</li>
+                        <li>none=>The list items will not be marked</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Each list item starts with the &lt;li&gt; tag.</li>
+                        <li>The list items will be marked with bullets (small black circles) by default.</li>
+                        <li>It is used to create a list of items where the order does not matter.</li>
+                    </ul>
+                </td>
+                <td>
+                    <pre>&lt;h2&gt;We will learn in Defence course: &lt;/h2&gt;
+    &lt;ul style="list-style-type:disc;"&gt;
+        &lt;li&gt;HTML&lt;/li&gt;
+        &lt;li&gt;CSS&lt;/li&gt;
+        &lt;li&gt;Javascript&lt;/li&gt;
+        &lt;li&gt;React&lt;/li&gt;
+        &lt;li&gt;Tailwind&lt;/li&gt;
+        &lt;li&gt;Node&lt;/li&gt;
+        &lt;li&gt;Java&lt;/li&gt;
+        &lt;li&gt;Stringboot&lt;/li&gt;
+    &lt;/ul&gt;
+                    </pre>
+                </td>
+                <td><h2>We will learn in Defence course: </h2>
+    <ul style="list-style-type:disc;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Tailwind</li>
+        <li>Node</li>
+        <li>Java</li>
+        <li>Stringboot</li>
+    </ul></td>
+            </tr>
+
+            <!-- ordered list -->
+            <tr>
+                <td><strong>Ordered list</strong></td>
+                <td><ul><li>&lt;ol&gt;</li></ul></td>
+                <td>
+                    <ul>
+                        <li>type="1"</li>
+                        <hr>
+                        <li>start="37"</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>type="1"=> numbers (default)</li>
+                        <li>type="A"=> uppercase letters</li>
+                        <li>type="a"=> lowercase letters</li>
+                        <li>type="I"=> uppercase roman numbers </li>
+                        <li>type="i"=> lowercase roman numbers</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Each list item starts with the &lt;li&gt; tag.</li>
+                        <li>The list items will be marked with numbers by default</li>
+                        <li>It is used to create a list of items where the order matter</li>
+                        <li>by using start="37"=> the number starts from 37.                                                                                      </li>
+                    </ul>
+                </td>
+                <td>
+                    <pre>&lt;h2&gt;We will learn in Defence course: &lt;/h2&gt;
+    &lt;ol type="1" start="37"&gt;
+        &lt;li&gt;HTML&lt;/li&gt;
+        &lt;li&gt;CSS&lt;/li&gt;
+        &lt;li&gt;Javascript&lt;/li&gt;
+        &lt;li&gt;React&lt;/li&gt;
+        &lt;li&gt;Tailwind&lt;/li&gt;
+        &lt;li&gt;Node&lt;/li&gt;
+        &lt;li&gt;Java&lt;/li&gt;
+        &lt;li&gt;Stringboot&lt;/li&gt;
+    &lt;/ol&gt;
+                    </pre>
+                </td>
+                <td><h2>We will learn in Defence course: </h2>
+    <ol type="1" start="37">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Tailwind</li>
+        <li>Node</li>
+        <li>Java</li>
+        <li>Stringboot</li>
+    </ol></td>
+            </tr>
+
+
+            <tr>
+                <td colspan="7"><strong>Other tag</strong></td>
+            </tr>
+
+            <!-- anchor tag -->
+            <tr>
+                <td><strong>Anchor tag</strong></td>
+                <td>
+                    <ul>
+                        <li>&lt;a&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>href="url"</li>
+                        <hr>
+                        <li>target="_self"</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>href="url" =>indicates the link's destination </li>
+                        <li>href value is may be link of website or section inside page(#sectionid)</li>
+                        <hr>
+                        <li>target="_self" =>Default. Opens the document in the same window/tab as it was clicked
+                        </li>
+                        <li>target="_blank"=>Opens the document in a new window or tab</li>
+                        <li>target="_parent"=>Opens the document in the parent frame</li>
+                        <li>target="_top"=>Opens the document in the full body of the window
+                            
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Its use for making hyperlink.</li>
+                        <li>unvisited link==> blue color</li>
+                        <li>visited link==> purple</li>
+                        <li>active link==> red </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>&lt;a href="https://www.youtube.com/" target="_blank" &gt;Visit Coder Army&lt;/a&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/ " target="_blank">Visit Coder Army</a>
+                    
+                </td>
+            </tr>
+
+            <!-- image tag -->
+            <tr>
+                <td><strong>Image tag</strong></td>
+                <td><ul><li>&lt;img&gt;</li></ul></td>
+                <td>
+                    <ul>
+                        <li>src="https://cdn.dnaindia.com/sites/default/
+                            files/2023/05/09/2588863-untitled-design-2023-05-09t173334.095.jpg?im=FitAndFill=(1200,900)"</li>
+                        <hr>
+                        <li>alt="Rohit Negi image"</li>
+                        <hr>
+                        <li>width="100"</li>
+                        <hr>
+                        <li>height="100"</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>src=""=>online link or image path</li>
+                        <hr>
+                        <li>alt=""=>if not load then show alternative</li>
+                        <hr>
+                        <li>width=""=> its take only number not include unit. by default it consider it as pixel.</li>
+                        <hr>
+                        <li>height=""=>same as width</li>
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Images are not technically inserted into a web page; images are linked to web pages. The &lt;img&gt; tag creates a holding space for the referenced image.</li>
+                        <li>The &lt;img&gt; tag is empty, it contains attributes only, and does not have a closing tag.</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>&lt;img src="https://cdn.dnaindia.com/
+                            sites/default/files/2023/05/09/2588863-untitled-design-2023-05-09t173334.095.jpg?im=FitAndFill=(1200,900)"  alt="Rohit negi image" width="200" height="200"&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <img src="https://cdn.dnaindia.com/sites/default/files/2023/05/09/2588863-untitled-design-2023-05-09t173334.095.jpg?im=FitAndFill=(1200,900)" alt="Rohit negi image" width="200" height="200" >
+                </td>
+            </tr>
+
+            <!-- absolute path and relative path -->
+            <tr>
+                <td colspan="7"> <strong>Absolute path and Relative path which is used in src (source) attribute</strong></td>
+                
+            </tr>
+
+            <tr>
+                <td colspan="7">
+                    <ul>
+                        <li>
+                            <span><strong>Absolute Path</strong></span>
+                            <br>
+                            <span>==>It gives the complete address (URL) of a file or resource.</span>
+                            <br>
+                            <span>==>Always starts from the root (domain name or drive).</span>
+                            <br>
+                            <span>==>ex:&lt;img src="E:\computer\friends\kalpesh.jpg" alt="kalpesh image"&gt;</span>
+                            <br>
+                            <span>==>ex:&lt;img src="https://www.example.com/images/logo.png" alt="Logo"&gt;</span>
+
+                        </li>
+
+                        <li>
+                            <span><strong>Relative Path</strong></span>
+                            <br>
+                            <span>==>It gives the path relative to the current HTML file's location.</span>
+                            <br>
+                            <span>==>Used when the file is in the same project/folder.</span>
+                            <br>
+                            <span>==>ex:&lt; img src="./images/logo.png" alt="Logo"&gt;=>here "./" means this this images folder is on same folder where i coding currently.</span>
+                            <br>
+                            <span>==>ex:&lt; img src="../images/logo.png" alt="Logo"&gt;=>here "../" means images folder is not in current file location its available in its parent folder(one level up folder) </span>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- table -->
+            <tr>
+                <td colspan="7"><strong>Table in HTML</strong></td>
+            </tr>
+            <tr>
+                <td colspan="7">
+                    <ul>
+                        <li>Table have 3 part-head,body and footer=>&lt;thead&gt;</li>,&lt;tbody&gt; &lt;tfoot&gt;
+                        <li>&lt;table&gt;=>Defines the table</li>
+                        <li>&lt;tr&gt;=>Table row</li>
+                        <li>&lt;th&gt;=>Table header cell (bold + centered by default)</li>
+                        <li>&lt;td&gt;=>Table data cell</li>
+                        <li>&lt;caption&gt;=>Table title (appears above table)</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td><strong></strong></td>
+                <td>
+                   
+                </td>
+                <td>
+                    <ul>
+                        <p><strong>&lt;table&gt; tag attribute</strong></p>
+                        <hr>
+                        <li>border="1"</li>
+                        
+                        <hr>
+                        <li>cellpadding="10"</li>
+                        <hr>
+                        <li>cellspacing="5"</li>
+                        <hr>
+
+
+                        <br>
+                        <br>
+                        <br>
+                        <p><strong>&lt;td&gt; tag attribute</strong></p>
+                        <hr>
+                        <li>colspan="2"</li>
+                        <hr>
+                        <li>rowspan="2"</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>border="1"=>Adds border to the table.Its value indicate thickness of border in pixel. here 1 means 1 pixel.</li>
+                        <hr>
+                        <li>colspan="2"=>Merges columns (cells horizontally).</li>
+                        <hr>
+                        <li>rowspan="2"=>Merges rows (cells vertically).</li>
+                        <hr>
+                        <li>cellpadding="10"=>Adds space inside each cell (between text and border).</li>
+                        <hr>
+                        <li>cellspacing="5"=>Adds space between table cells.</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>table tag is used to display tabular data (rows & columns). It comes with its own attributes</li>
+                    </ul>
+                </td>
+                <td><pre><code>
+&lt;table border="2" cellpadding="8" cellspacing="5"&gt; 
+    &lt;caption&gt;Student Report&lt;/caption&gt; 
+    &lt;thead&gt;
+        &lt;tr&gt; 
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th colspan="2"&gt;Marks&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+
+    &lt;tbody&gt;
+        &lt;tr&gt; 
+            &lt;td rowspan="2"&gt;Kalpesh&lt;/td&gt;
+            &lt;td&gt;Math&lt;/td&gt; 
+            &lt;td&gt;90&lt;/td&gt; 
+        &lt;/tr&gt; 
+        &lt;tr&gt; 
+            &lt;td&gt;Science&lt;/td&gt; 
+            &lt;td&gt;85&lt;/td&gt; 
+        &lt;/tr&gt;
+    &lt;/tbody&gt; 
+
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Total&lt;/td&gt;
+            &lt;td colspan="2"&gt;175&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;
+</code></pre>
+</td>
+                    
+                </td>
+
+                <td>
+                    <table border="2" cellpadding="8" cellspacing="5" > 
+                        <caption>Student Report</caption> 
+                        <thead>
+                        <tr> 
+                            <th>Name</th>
+                            <th colspan="2">Marks</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+                        
+                        <tr> 
+                            <td rowspan="2">Kalpesh</td>
+                            <td>Math</td> 
+                            <td>90</td> 
+                        </tr> 
+                        <tr> 
+                            <td>Science</td> 
+                            <td>85</td> 
+                        </tr>
+                        <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td colspan="2">175</td>
+                        </tr>
+                        </tfoot>
+                        </tbody> 
+                    </table>
+                </td>
+            </tr>
+
+            <!-- form -->
+            <tr>
+                <td colspan="7"><p><strong>Form</strong></p></td>
+
+            </tr>
+
+            <!-- input -->
+            <tr>
+                <td></td>
+                <td><ul><li>&lt;input&gt;</li></ul></td>
+                <td>
+                    <ul>
+                        <li>type= " "</li>
+                        <hr>
+                        <li>name=" "</li>
+                        <hr>
+                        <li>placeholder=" "</li>
+                        <hr>
+                        <li>max=" "</li>
+                        <hr>
+                        <li>min=" "</li>
+                        <hr>
+                        <li>value=" "</li>
+                        
+
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li type="none">type=" "</li>
+                        <li>
+                            => this attribute have these value=>text,password,email,number ,date,file,checkbox,radio,hidden ,submit,reset,  etc
+                        </li>
+                        <hr>
+                        <li type="none">name=" "</li>
+                        <li>name attribute is used to identify form data after submission.</li>
+                        <li>browser sends data to the server in key–value pairs, where key=name, value=user input</li>
+                        <li>ex:username=Kalpesh&password=12345</li>
+                        <hr>
+                        <li type="none">placeholder=""</li>
+                        <li>provides a hint or example text inside an input field.</li>
+                        <li>It disappears when the user starts typing.</li>
+                        <hr>
+                        <li type="none">max=" "</li>
+                        <li>defines the maximum value an input field can accept.</li>
+                        <li>It's used with input types that accept numeric or date values.</li>
+
+                        <hr>
+                        <li type="none">min=" "</li>
+                        <li>sets the minimum (lowest) value allowed for an input field.</li>
+                        <li>It's used with input types that accept numeric or date values.</li>
+
+                        <hr>
+                        <li type="none">value=" "</li>
+                        <li>value attribute specifies the default value of a form element when the page loads.</li>
+                        <li>actual data sent to the server when the form is submitted.</li>
+
+
+                    </ul>
+
+
+                </td>
+                <td>
+                    <ul><li>Used for various types of user input.</li></ul>
+                </td>
+                <td><pre><pre><code>
+&lt;input type="text" name="username" placeholder="Enter your name"&gt;
+&lt;input type="password" name="password" placeholder="Enter password"&gt;
+&lt;input type="email" name="email" placeholder="Enter password"&gt;
+&lt;br&gt;
+&lt;input type="number" name="age" min="1" max="100" placeholder="Enter number"&gt;
+&lt;br&gt;
+&lt;input type="date" name="dob"&gt;
+&lt;br&gt;
+&lt;input type="file" name="resume"&gt;
+&lt;br&gt;
+&lt;input type="checkbox" name="agree"&gt; I Agree
+&lt;br&gt;
+&lt;input type="radio" name="gender" value="male"&gt; Male
+&lt;input type="radio" name="gender" value="female"&gt; Female
+&lt;br&gt;
+&lt;input type="hidden" name="userid" value="12345"&gt;
+&lt;br&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;br&gt;
+&lt;input type="reset" value="Reset"&gt;</pre>
+                    
+                </td>
+
+                <td>
+                    <input type="text" name="username" placeholder="Enter your name">
+                    <br>
+                    <input type="password" name="password" placeholder="Enter password">
+                    <br>
+                    <input type="email" name="email" placeholder="Enter email">
+                    <br>
+                    <input type="number" name="age" min="1" max="100" placeholder="Enter number">
+                    <br>
+                    <input type="date" name="dob">
+                    <br>
+                    <input type="file" name="resume">
+                    <br>
+                    <input type="checkbox" name="agree"> I Agree
+                    <br>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <br>
+                    <input type="hidden" name="userid" value="12345">
+                    <br>
+                    <input type="submit" value="Submit">
+                    <br>
+                    <input type="reset" value="Reset">
+
+                </td>
+            </tr>
+
+            <!-- textarea -->
+            <tr>
+                <td></td>
+                <td><ul><li>&lt;textarea&gt;</li></ul></td>
+                <td>
+                    <ul>
+                        <li>name=" "</li>
+                        <hr>
+                        <li>rows="5"</li>
+                        <hr>
+                        <li>cols="40"</li>
+
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li type="none">name=" "</li>
+                        <li>same as explained in input</li>
+                        <hr>
+                        <li type="none">rows=" "</li>
+                        <li>visible height of the textarea in terms of the number of text lines.</li> 
+                        <li>ex:-rows="10" would make the textarea initially display 10 lines of text.</li>
+                        <hr>
+                        <li type="none">cols=" "</li>
+                        <li> visible width of the textarea in terms of the average character width.</li>
+                        <li>ex:-cols="50" would make the textarea initially wide enough to display approximately 50 characters per line.</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>For multi-line text input.</li>
+                    </ul>
+                </td>
+                <td>
+                    <pre>
+&lt;textarea name="message" rows="19" cols="50"&gt;Enter Yourself here  &lt;/textarea&gt;
+                    </pre>
+                </td>
+                <td>
+                    <textarea name="message" rows="10" cols="50">Enter Yourself here  </textarea>
+                </td>
+            </tr>
+
+            <!-- select,optgroup,option -->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li> &lt;select&gt;</li>
+                        <li> &lt;optgroup&gt;</li>
+                        <li> &lt;option&gt;</li>
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <p><strong>&lt;select&gt; tag</strong></p>
+                        <li>name=" "</li>
+                        <hr>
+
+                        <p><strong>&lt;optgroup&gt; tag</strong></p>
+                        <li>label=" "</li>
+                        <hr>
+
+                        <p><strong>&lt;option&gt; tag</strong></p>
+                        <li>value=""</li>
+                        <li>selected</li>
+                       
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li type="none">name=""</li>
+                        <li>same as above discussed</li>
+                        <hr>
+                        <li type="none">label=" "</li>
+                        <li>This is group name of option.</li>
+                        <li>It makes the dropdown easier to understand.</li>
+                        <hr>
+                        <li type="none">value=""</li>
+                        <li>Every option have value. when i select option its value send to backend.</li>
+                        <hr>
+                        <li type="none">selected</li>
+                        <li>when i wanted by default select option</li>
+
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>The &lt;select&gt; tag creates a drop-down menu.</li>
+                        <li>It holds one or more &lt;option&gt; elements.</li>
+                        <li>The&lt;optgroup&gt; tag groups related options</li>
+                    </ul>
+                </td>
+                <td>
+                    <pre>&lt;select name="country"&gt;
+    &lt;optgroup label="Asia"&gt;
+        &lt;option value="india"&gt;India&lt;/option&gt;
+        &lt;option value="japan"&gt;Japan&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label="Europe"&gt;
+        &lt;option value="france" selected&gt;France&lt;/option&gt;
+        &lt;option value="germany"&gt;Germany&lt;/option&gt;
+    &lt;/optgroup&gt;
+&lt;/select&gt;</pre>
+                </td>
+                <td>
+                    <select name="country">
+                    <optgroup label="Asia">
+                        <option value="india">India</option>
+                        <option value="japan" >Japan</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option value="france" selected>France</option>
+                        <option value="germany">Germany</option>
+                    </optgroup>
+                    </select>
+
+                </td>
+            </tr>
+
+            <!-- label -->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>&lt;label&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>for=" "</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Links the label to a form element by its id</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>&lt;label&gt; tag is used to provide a caption/description for a form input element (like text box, checkbox, radio button, etc.).</li>
+                        <li>It improves usability and accessibility</li>
+                        <li>clicking on label text its automatically focuses on its input linked.</li>
+                    </ul>
+                </td>
+                <td><pre>&lt;label for="id_of_input"&gt;User name:&lt;/label&gt;
+&lt;input input type="text" id="id_of_input" name="username"&gt;
+                </pre></td>
+                <td>
+                    <label for="id_of_input">User name:</label>
+                    <input type="text" id="id_of_input" name="username">
+
+                </td>
+            </tr>
+
+            <!-- button -->
+            <tr>
+                <td></td>
+                <td>&lt;button&gt;</td>
+                <td>
+                    <ul>
+                        <li>type=""</li>
+                        <hr>
+                        <li>disable</li>
+                        <hr>
+                        <li>Autofocus</li>
+                        <hr>
+                        <li>onclick=""</li>
+                        <hr>
+                        <li>form="formid"</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li type="none">type=""</li>
+                        <li>type="submit" =>Submits the form data.</li>
+                        <li>type="reset" =>Resets all form fields to their default values.</li>
+                        <li>type="button"=>by default=>we attach Javascript functionality using onclick="".</li>
+                        <hr>
+                        <li type="none">disable</li>
+                        <li>click functionality will not worked</li>
+
+                        <hr>
+                        <li type="none">Autofocus=>automatically focuses when page load</li>
+                        <hr>
+                        <li type="none">form="form_id"</li>
+                        <li>specifies which form the button belongs to (useful if button is outside the form).</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>this tag defines a clickable button.</li>
+                        <li>It can be used to submit a form, reset a form, or run custom JavaScript code.</li>
+                        
+                    </ul>
+                </td>
+                <td><pre>&lt;form&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</pre>
+                </td>
+                <td>
+                    <form>
+                        
+                        <button type="submit">Submit</button>
+                    </form>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <form id="form1">
+                        <label for="">username:</label>
+                        <input type="text" id="username1" placeholder="please enter username">
+                        
+                    </form>
+                    <br>
+                    <button type="submit" form="form1">Submit form1 using outside button</button>
+                </td>
+            </tr>
+
+            <!-- fieldset and legend -->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>&lt;fieldset&gt;</li>
+                        <li>&lt;legend&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li type="none"><strong>fieldset attriute</strong></li>
+                        <li>disabled</li>
+                        <li>form=""</li>
+                        <li>name=""</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>disabled=>disables all elements inside</li>
+                        <li>form=""=>links the fieldset to a specific form (if it's outside the &lt;form&gt;).</li>
+                        <li>name=""gives the fieldset a name (rarely used).</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li type="none"><strong>&lt;fieldset&gt;</strong></li>
+                        <li>The &lt;fieldset&gt; tag is used to group related form elements together.</li>
+                        <li>It draws a box around the grouped elements.</li>
+                        <li>Helps improve form organization and accessibility.</li>
+                        <li type="none">&lt;legend&gt;</li>
+                        <li>It provides a caption/title for the grouped fields.</li>
+                        <li>The legend text is usually shown at the top border of the fieldset box.</li>
+
+                    </ul>
+                </td>
+                <td><pre>&lt;form&gt; 
+  &lt;fieldset&gt;
+    &lt;legend&gt;Personal Info&lt;/legend&gt;
+    &lt;label&gt;Name: &lt;input type="text" name="name"&gt;&lt;/label&gt;&lt;br&gt;
+    &lt;label&gt;Email: &lt;input type="email" name="email"&gt;&lt;/label&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset&gt;
+    &lt;legend&gt;Account Info&lt;/legend&gt;
+    &lt;label&gt;Username: &lt;input type="text" name="username"&gt;&lt;/label&gt;&lt;br&gt;
+    &lt;label&gt;Password: &lt;input type="password" name="password"&gt;&lt;/label&gt;
+  &lt;/fieldset&gt;
+
+  &lt;button type="submit"&gt;Register&lt;/button&gt;
+&lt;/form&gt;</pre>
+
+                </td>
+                <td>
+                    <form>
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <label>Name: <input type="text" name="name"></label><br>
+                        <label>Email: <input type="email" name="email"></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Account Info</legend>
+                        <label>Username: <input type="text" name="username"></label><br>
+                        <label>Password: <input type="password" name="password"></label>
+                    </fieldset>
+
+                    <button type="submit">Register</button>
+                    </form>
+                </td>
+            </tr>
+
+            <!-- datalist-->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>&lt;datalist&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <p type="none"><strong>In input tag</strong> </p>
+                        <li>list=""</li>
+                        <li>name=" "</li>
+                        <hr>
+
+                        <p type="none"><strong>datalist tag</strong></p>
+                        <li>id=" "</li>
+                        <hr>
+
+                        <p type="none"><strong>option tag</strong></p>
+                        <li>value=" "</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>list=""=>input tag is connected to datalist tag using list attribute. its value is datalist id.</li>
+                        <li>name=""=>same as above in input</li>
+                        <li>id=""=>id of html element</li>
+                        <li>value=""=>datalist have option so every option have its own value.</li>
+                    </ul>
+
+                </td>
+                <td>
+                    <ul>
+                        <li>The &lt;datalist&gt; tag provides a list of predefined options for an &lt;input&gt; element.</li>
+                        <li>It creates an autocomplete dropdown: the user can either choose from the list or type a custom value.</li>
+                        <li>It is always used together with &lt;input&gt; and linked using the list attribute.</li>
+                    </ul>
+                </td>
+                <td><pre>&lt;input list="browsers" name="browser"&gt;
+                    <br>
+&lt;datalist id="browsers"&gt;
+    &lt;option value="Chrome"&gt;
+    &lt;option value="Firefox"&gt;
+    &lt;option value="Edge"&gt;
+    &lt;option value="Safari"&gt;
+    &lt;option value="Opera"&gt;
+&lt;/datalist></pre>
+                </td>
+                <td>
+                    <input list="browsers" name="browser">
+                    <datalist id="browsers">
+                    <option value="Chrome">
+                    <option value="Firefox">
+                    <option value="Edge">
+                    <option value="Safari">
+                    <option value="Opera">
+                    </datalist>
+                </td>
+            </tr>
+
+
+            <!--output -->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>&lt;output&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>for= " "</li>
+                        <li>name=" "</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>for="input1_id  input2_id"=>its value is inputs ids</li>
+                        <li>this for connect to input</li>
+                        <hr>
+                        <li>name=" "=>backend save this output value on this name</li>
+
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>input connect to output using for attribute.</li>
+                        <li>output value logic connect to form tag</li>
+                        <li>This output value logic is inside form oninput=" " attribute </li>
+                    </ul>
+                </td>
+                <td><pre> &lt;form oninput="result.value=parseInt(input1_id.value)+parseInt(input2_id.value)"&gt;<br>
+    &nbsp;&nbsp;&lt;input type="number" id="input1_id" value="5"&gt; +<br>
+    &nbsp;&nbsp;&lt;input type="number" id="input2_id" value="10"&gt; =<br>
+    &nbsp;&nbsp;&lt;output name="result" for="input1_id input2_id"&gt;&lt;/output&gt;
+    <br>
+&lt;/form&gt;</pre></td>
+                <td>
+                    <ul>
+                        <li>change value its change result</li>
+                        <li>input tag connect with output and output connect to form oninput</li>
+                    </ul>
+                    
+                    <form oninput="result.value=parseInt(input1_id.value)+parseInt(input2_id.value)">
+  <input type="number" id="input1_id" value="5"> +
+  <input type="number" id="input2_id" value="10"> =
+  <output name="result" for="input1_id input2_id"></output>
+</form>
+
+                </td>
+            </tr>
+
+            <!-- media  -->
+            <tr>
+                <td colspan="7"><strong>Media</strong></td>
+
+            </tr>
+
+
+            <!-- audio tag -->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li type="none"><strong>main tag</strong></li>
+                        <li>&lt;audio&gt;</li>
+
+                        <li type="none"><strong>subtag</strong></li>
+                        <li>&lt;source&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li type="none"><strong>audio tag attribute</strong></li>
+                        <li>controls</li>
+                        <br>
+                        <hr>
+                        <li type="none"> <strong>source tag attribute</strong></li>
+                        <li>src=" "</li>
+                        <li>type=" "</li>
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                    <li>controls=>this attribute in audio tag include adds play, pause, volume UI</li>
+                    <li>src="song.mp3"==>this tag value is path of this song file. </li>
+                    <li>type="audio/mpeg"=>its value may be (for .mp3=>audio/mpeg),(for .ogg=>audio/ogg)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>audio tag used to embed sound/music</li>
+                        <li>This audio tag have multiple source tag. if first source tag song not works then its start to play second source tag song.</li>
+                        <li>&lt;source&gt; is basically a list of backup files, giving the browser options.The browser will ignore unsupported formats and move to the next.</li>
+                    </ul>
+                </td>
+                <td><pre>&lt;p&gt;&lt;strong&gt;==&gt; Rohit Negi Motivation Speech&lt;/strong&gt;&lt;/p&gt;
+&lt;audio controls&gt;
+    &lt;source src="song.mp3" type="audio/mpeg"&gt;
+    &lt;source src="rohit negi motivation speech.ogg" type="audio/ogg"&gt;
+    Your browser does not support the audio element.
+&lt;/audio&gt;</pre>
+                </td>
+                <td>
+                    <p><strong>==>Rohit Negi Motivation Speech</strong></p>
+                    <audio controls>
+                    
+                    <source src="song.mp3" type="audio/mpeg">
+
+                    <source src="rohit negi motivation speech.ogg" type="audio/ogg">
+                  
+                   
+                    </audio>
+                </td>
+            </tr>
+
+            <!-- video tag -->
+            <tr>
+                <td></td>
+                <td><ul>
+                        <li type="none"><strong>main tag</strong></li>
+                        <li>&lt;video&gt;</li>
+
+                        <li type="none"><strong>subtag</strong></li>
+                        <li>&lt;source&gt;</li>
+                    </ul></td>
+                <td>
+                    <ul>
+                        <li type="none"><strong>video tag attribute</strong></li>
+                        <li>controls</li>
+                        <li>width=""</li>
+                        <li>height=""</li>
+                        <br>
+                        <hr>
+                        <li type="none"> <strong>source tag attribute</strong></li>
+                        <li>src=" "</li>
+                        <li>type=" "</li>
+                        <li>autoplay</li>
+                        <li>muted</li>
+                        <li>loop</li>
+                        <li>poster=""</li>
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>controls,src="",type=""==>this all attribute we have already discussed.</li>
+                        <li>width="",height="" ==>will be deside video container height and width.
+                        </li>
+                        <li>autoplay=>video will starts when page load</li>
+                        <li>muted==>Starts video with sound off.</li>
+                        <li>loop==> Replays video when finished.</li>
+                        <li>poster=" " ==>its value is path of image.Placeholder image before video starts.</li>
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>The &lt;video&gt; tag is used to embed video files directly into a webpage.</li>
+                        <li>It supports controls like play, pause, volume, fullscreen with the controls attribute.</li>
+                        <li>video tag support multiple source tag. same as discussed in audio.</li>
+                    </ul>
+                </td>
+                <td><pre>&lt;p&gt;&lt;strong&gt;Motivation by Rohit Negi&lt;/strong&gt;&lt;/p&gt;
+&lt;video width="300" height="300" controls autoplay muted loop poster="thumbnail.jpg"&gt;
+    &lt;source src="intro.ogg" type="video/ogg"&gt;
+    &lt;source src="Still figuring out what to do in life….mp4" type="video/mp4"&gt;
+&lt;/video&gt;</pre>
+
+                </td>
+                <td>
+                    <p><strong>Motivation by Rohit Negi</strong></p>
+                    <video width="300" height="300" controls autoplay muted loop poster="thumbnail.jpg">
+                <source src="intro.ogg" type="video/ogg">
+                <source src="Still figuring out what to do in life….mp4" type="video/mp4">
+                
+                
+                </video></td>
+            </tr>  
+            
+            <!-- embed tag -->
+            <tr>
+                <td></td>
+                <td><ul><li>&lt;embed&gt;</li></ul></td>
+                <td>
+                    <ul>
+                        <li>src=" "</li>
+                        <li>type=" "</li>
+                        <li>width=" "</li>
+                        <li>height=" " </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>all attribute we have discussed above</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Embeds external content (like PDFs, Flash, etc.).</li>
+                    </ul>
+                </td>
+                <td><pre>&lt; embed src="rohit_negi.pdf" type="application/pdf" width="350" height="400"&gt;</pre>
+
+                </td>
+                <td><embed src="rohit_negi.pdf" type="application/pdf" width="350" height="400">
+</td>
+            </tr>
+
+            <!-- iframe -->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>&lt;iframe&gt;</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>src=" "</li>
+                        <li>width=" "</li>
+                        <li>height=" "</li>
+                        <li>title=""</li>
+                        <li>frameborder="0"</li>
+                        <li>allowfullscreen=""</li>
+                        <li>loading="lazy"</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>src → The URL of the page/document you want to embed.</li>
+                        <li>width & height → Size of the iframe in pixels.</li>
+                        <li>title → Adds accessibility info (important for SEO & screen readers).</li>
+                        <li>name → Gives the iframe a name so links can target it.</li>
+                        <li>frameborder (deprecated) → Old way to show/hide borders. Use CSS instead.</li>
+                        <li>allowfullscreen → Allows full-screen mode (mainly for videos).</li>
+                        <li>loading="lazy" → Improves performance by loading iframe only when visible.</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>This embed tag is used to embed another HTML page, video, map, or external content inside your webpage.</li>
+                        <li>It basically creates a "window" inside your page to show another web page.</li>
+                    </ul>
+                </td>
+                <td><pre>&lt;iframe width="300" height="315" 
+         src="https://youtube.com/embed/eUfzneMLOcY"
+        frameborder="0" allowfullscreen title="hello this is first hackathon of coder army in defence betch."&gt;
+&lt;/iframe&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;iframe width="300" height="315" 
+         src="https://www.coderarmy.in/"
+        frameborder="0"&gt;
+&lt;/iframe&gt;</pre></td>
+                <td><iframe width="300" height="315" 
+         src="https://youtube.com/embed/eUfzneMLOcY"
+        frameborder="0" allowfullscreen title="hello this is first hackathon of coder army in defence betch.">
+        
+</iframe>
+<br>
+<br>
+<iframe width="300" height="315" 
+         src="https://www.coderarmy.in/"
+        frameborder="0">
+        
+</iframe>
+</td>
+            </tr>
+
+
+            <tr>
+                <td colspan="7"><strong>Block Elements and Inline Element</strong></td>
+                
+
+            </tr>
+            <tr>
+                <td colspan="7">
+                    <ul>
+                    <p><strong>Block Elements</strong></p>
+                    <li>Always start on a new line (take up the full width available).</li>
+                    <li>They stack vertically (one after another).</li>
+                    <li>Can contain inline elements or other block elements.</li>
+                    <li>example:&lt;div&gt;, &lt;p&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;section&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;table&gt;
+                    </li>
+                    <p><strong>Inline Elements</strong></p>
+                    <li>Do NOT start on a new line.</li>
+                    <li>Only take up as much width as necessary.</li>
+                    <li>Usually used inside block elements (cannot wrap block-level elements inside inline).</li>
+                    <li>Example:&lt;span&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;i&gt;, &lt;img&gt;, &lt;label&gt;</li>
+                </ul>
+                </td>
+
+            </tr>
+
+            <!-- emmet -->
+             <tr>
+                <td colspan="7">
+                    <strong>Emmet (Shortcut for writing HTML and CSS code)</strong>
+                </td>
+             </tr>
+            <tr>
+                <td colspan="7">
+                    <ul>
+                        
+                        <li>Emmet is a shorthand (shortcut) for writing HTML & CSS code faster.</li>
+                        <li>It comes built-in with VS Code and many other editors.</li>
+                        <li>Instead of typing full HTML, you type an abbreviation, press Tab (or Enter depending on settings), and it expands into full code.</li>
+                        <p> <strong>Below is example</strong></p>
+                         <li><strong>! </strong> → HTML boilerplate</li>
+    <li><strong>div</strong> → &lt;div&gt;&lt;/div&gt;</li>
+    <li><strong>div.container</strong> → &lt;div class="container"&gt;&lt;/div&gt;</li>
+    <li><strong>div#main</strong> → &lt;div id="main"&gt;&lt;/div&gt;</li>
+    <li><strong>p{Hello}</strong> → &lt;p&gt;Hello&lt;/p&gt;</li>
+    <li><strong>h1{Title}</strong> → &lt;h1&gt;Title&lt;/h1&gt;</li>
+    <li><strong>ul&gt;li*3</strong> → 3 list items inside ul</li>
+    <li><strong>nav&gt;ul&gt;li*4&gt;a{Link $}</strong> → Menu with 4 links</li>
+    <li><strong>section&gt;h2{Heading}+p{Text}</strong> → Section with heading + paragraph</li>
+    <li><strong>table&gt;tr*2&gt;td*3</strong> → 2 rows, 3 columns</li>
+    <li><strong>form&gt;input:text+input:password+input:submit</strong> → Simple login form</li>
+    <li><strong>img</strong> → &lt;img src="" alt=""&gt;</li>
+    <li><strong>a:link</strong> → &lt;a href="http://"&gt;&lt;/a&gt;</li>
+    <li><strong>lorem</strong> → Random placeholder text</li>
+    <li><strong>lorem10</strong> → 10 words of lorem ipsum</li>
+    <li><strong>input:checkbox</strong> → Checkbox input</li>
+    <li><strong>input:radio</strong> → Radio input</li>
+    <li><strong>input:email</strong> → Email input</li>
+    <li><strong>input:number</strong> → Number input</li>
+    <li><strong>link:css</strong> → CSS link tag</li>
+    <li><strong>script:src</strong> → Script with src attribute</li>
+                    </ul>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td colspan="7"><strong>HTML Entities</strong></td>
+            </tr>
+
+            <tr>
+                <td colspan="7">
+                     <p>HTML entities are used to display reserved characters or special symbols in HTML.</p>
+
+    <ul>
+        <li type="none"><strong>Why we need HTML entities:</strong></li>
+        <li>Some characters like <code>&lt;</code> (less than) and <code>&gt;</code> (greater than) are reserved in HTML, so we cannot use them directly in our code.</li>
+        <li>HTML entities allow us to display special characters such as &copy; (©), &reg; (®), &amp; (&), &quot; ("), and &apos; (').</li>
+        <li>They prevent HTML parsing errors when using reserved symbols inside content.</li>
+        <li>They improve readability and ensure proper display across different browsers.</li>
+    </ul>
+
+    <p><strong>Common HTML Entities Examples(add prefix==>&)</strong></p>
+    <ul>
+        <li>lt; → &lt; (less than)</li>
+        <li>gt; → &gt; (greater than)</li>
+        <li>amp;</code> → &amp; (ampersand)</li>
+        <li>quot; → &quot; (double quote)</li>
+        <li>apos; → &apos; (single quote)</li>
+        <li>copy; → &copy; (copyright symbol)</li>
+        <li>reg; → &reg; (registered trademark)</li>
+    </ul>
+                </td>
+            </tr>
+            
+
+
+
+
+                
+        </tbody>
+    </table>
+    
+    
+</body>
+</html>
+<!-- &lt;&gt; -->
+
+<!-- <tr>
+                <td><strong></strong></td>
+                <td>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr> -->

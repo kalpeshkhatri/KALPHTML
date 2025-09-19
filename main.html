@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day1
+    </title>
+</head>
+<body>
+    <h2>HTML PAGES (click on Internet or HTML)</h2>
+
+    <table border="1" cellspacing="45" cellpadding="40">
+        <tr>
+            <td><a href="./index.html">HTML</a></td>
+            <td><a href="./main.html" >Internet</a></td>
+            <td><a href="./support.html" >Support</a></td>
+            <td><a href="./SpecialThanks.html">Special Thanks</a></td>
+
+        </tr>
+    </table>
+
+
+
+    <h1> <a href="./index.html">Internet And Computer Network</a></h1>
+    <div>
+        <h2>How to send Information from computer-A to computer-B  ?</h2>
+        <ul>
+            <div>
+                <li>Method-1:By using USB</li>
+                <div>==>>>Limitation:
+                    <ol>
+                        <li>Its slow</li>
+                        <li>not Scalable when information is big</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+
+
+
+            <div>
+                <li>Method-2:Connecting two computer with each other with ethernet cable ot fibre cable</li>
+                <div>===>>Limitation:
+                    <ol>
+                        <li>Its needed more cable if computer number increase. for example for 4 computer its needed 6 cable  to connect each other.</li>
+                    </ol>
+                </div>
+
+            </div>
+            <br>
+
+            <div>
+                <li>Method-3:Provide central computer which is connected to all other computer that called as 
+                   <a href="">switch</a> </li>
+                <div>===>>Solve:
+                    <ol>
+                        <li>Solve number of cable needed to connect each other because all compuer connect with this Switch. so its make Local Network</li>
+                    </ol>
+                </div>
+                
+
+                <div>===>>Limitation:
+                    <ol>
+                        <li>This method is not works when they both computer is in different office.</li>
+                    </ol>
+                </div>
+
+            </div>
+            <br>
+
+            <div>
+                <li>Method-4:Local network connect with Router</li>
+
+                <div>===>>How its works?:
+                    <ol>
+                        <li>Its only job is to pass messages, or "route" traffic, from one network to the other. Let's call this device a Router.</li>
+                    </ol>
+                </div>
+                
+
+                <div>===>>Limitation:
+                    <ol>
+                        <li></li>
+                    </ol>
+                </div>
+
+            </div>
+            
+        </ul>
+    </div>
+
+
+
+    <!-- --------------------- -->
+
+    <div>
+        <h2>What is Internet?</h2>
+        <div>
+            <ul>
+                <li>The Internet is a global network of interconnected computers and devices that communicate with each other using standard protocols (mainly TCP/IP) to share data, information, and services.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <h2>How to Identifying any Computer on the Internet?</h2>
+        <div>
+            <ul>
+                <li>Every device connected to the Internet has a unique IP address.</li>
+
+                <li>The IP address acts like a postal address for the computer.</li>
+
+                <li>Communication between two computers always requires source IP → destination IP.</li>
+            </ul>
+        </div>
+        
+        <div>Example:
+            <ol>
+                <li>You type example.com in your browser.</li>
+
+                <li>Browser asks DNS → gives IP 93.184.216.34.</li>
+
+                <li>Your computer sends a TCP packet (with destination IP = 93.184.216.34, port 80/443).</li>
+
+                <li>Routers forward the packet → server receives it.</li>
+
+                <li>Server replies back to your public IP.</li>
+
+                <li>Connection established → now data flows.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div>
+        <h2>Type of IP Address</h2>
+        <ol>
+            <li>IPv4 (32-bit):=>IPv4 has both private and public ranges.</li>
+            <li>IPv6 (128-bit):=>IPv6 also has both private (fc00::/7, fe80::/10) and public (2000::/3) ranges.</li>
+            <li>
+                Public IP Address:=>A Public IP address is your global, unique address on the internet.
+                
+               
+            </li>
+            
+           
+            <li>Private IP Address:=>A Private IP address is a local address used only within your own private network (e.g., your home Wi-Fi, your office network).</li>
+
+            
+
+        </ol>
+    </div>
+
+<hr>
+<hr>
+    <div>
+        <h2>IPv4 (32-bit)</h2>
+        <ul>
+            <li>IPv4 is written as four octets (e.g., 192.168.0.1).</li>
+            <li>Each octet = 8 bits → values from 0–255.</li>
+            <br>
+            <li type="none"><strong>IPv4 Classes</strong></li>
+            <table border="l">
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Ranges</th>
+                        <th>Nos of Network</th>
+                        <th>Hosts per Network</th>
+                        <th>Used For</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>1.0.0.0 - 126.255.255.255</td>
+                        <td>128</td>
+                        <td>~16 Million</td>
+                        <td>Large networks</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>128.0.0.0 - 191.255.255.255</td>
+                        <td>16,384</td>
+                        <td>~65,000</td>
+                        <td>Medium networks</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>192.0.0.0 - 223.255.255.255</td>
+                        <td>2,097,152</td>
+                        <td>254</td>
+                        <td>Small networks</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>224.0.0.0 - 239.255.255.255</td>
+                        <td></td>
+                        <td></td>
+                        <td>Multicasting</td>
+                    </tr>
+                    <tr>
+                        <td>E</td>
+                        <td>240.0.0.0 - 255.255.255.255</td>
+                        <td></td>
+                        <td></td>
+                        <td>Experimental (not used publicly)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <li type="none">127.0.0.0/8 is loopback(localhost).</li>
+
+            <br>
+            <li type="none"><strong>Private IPv4 Ranges (not routable on the Internet)</strong>:Used inside LANs, Wi-Fi routers, etc.</li>
+            <li type="none">If your computer has one of these, it’s in a private network and uses NAT (Network Address Translation) to connect to the Internet.</li>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Ranges</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>10.0.0.0 – 10.255.255.255</td>
+                    </tr>
+
+                    <tr>
+                        <td>B</td>
+                        <td>172.16.0.0 – 172.31.255.255</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>192.168.0.0 – 192.168.255.255</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <br>
+            <li type="none"><strong>Special IPv4 Ranges</strong></li>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Use Case</th>
+                        <th>Ranges</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loopback (localhost)</td>
+                        <td>127.0.0.0 – 127.255.255.255</td>
+                    </tr>
+                    <tr>
+                        <td>APIPA (Automatic Private IP)</td>
+                        <td>169.254.0.0 – 169.254.255.255</td>
+                    </tr>
+                    <tr>
+                        <td>Broadcast</td>
+                        <td>255.255.255.255</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Multicast</td>
+                        <td>224.0.0.0 – 239.255.255.255</td>
+                    </tr>
+                    <tr>
+                        <td>Reserved for future use</td>
+                        <td>240.0.0.0 – 255.255.255.254</td>
+                    </tr>
+
+                    
+                </tbody>
+            </table>
+            
+
+
+        </ul>
+
+
+    </div>
+<hr>
+<hr>
+    <div>
+        <h2>IPV6</h2>
+        <ul>
+    <li>IPv6 stands for Internet Protocol version 6.</li>
+    <li>It is the successor of IPv4 and provides a much larger address space.</li>
+    <li>IPv6 addresses are 128 bits long, compared to 32 bits in IPv4.</li>
+    <li>Addresses are represented in hexadecimal and separated by colons (:).</li>
+    <li>IPv6 supports automatic address configuration (stateless auto-configuration).</li>
+    <li>It improves security with built-in IPsec support.</li>
+    <li>IPv6 eliminates the need for Network Address Translation (NAT).</li>
+    <li>It provides better routing efficiency and hierarchical addressing.</li>
+    <li>IPv6 supports multicast instead of broadcast, reducing network traffic.</li>
+  </ul>
+
+  <h3>IPv6 Address Types</h3>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Address Type</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td>Unicast</td>
+      <td>Identifies a single interface. Packets are delivered to one specific device.</td>
+      <td>2001:0db8::1</td>
+    </tr>
+    <tr>
+      <td>Multicast</td>
+      <td>Identifies a group of interfaces. Packets are delivered to all members of the group.</td>
+      <td>FF02::1</td>
+    </tr>
+    <tr>
+      <td>Anycast</td>
+      <td>Assigned to multiple interfaces, but packets are delivered to the nearest one.</td>
+      <td>2001:0db8::2</td>
+    </tr>
+    <tr>
+      <td>Link-local</td>
+      <td>Used for communication on the same link (local network segment).</td>
+      <td>FE80::1</td>
+    </tr>
+    <tr>
+      <td>Global unicast</td>
+      <td>Routable on the internet, similar to public IPv4 addresses.</td>
+      <td>2001:0db8:85a3::8a2e:0370:7334</td>
+    </tr>
+  </table>
+    </div>
+<hr>
+<hr>
+
+    <div>
+        <h2>Public IP Address</h2>
+        <ul>
+    <li><strong>Public IP:</strong> Assigned by your Internet Service Provider (ISP) and is unique across the entire internet.</li>
+    <li><strong>Private IP:</strong> Used within a private network and can be reused in different networks.</li>
+    <li>Public IP allows devices to communicate over the internet.</li>
+    <li>Private IP allows devices to communicate within a local network (LAN).</li>
+    <li>Private IP addresses are not routable on the internet.</li>
+    <li>Public IP can be dynamic (changes) or static (fixed).</li>
+  </ul>
+
+  <h2>Private IP Address Ranges</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>IP Version</th>
+      <th>Range</th>
+      <th>Use</th>
+    </tr>
+    <tr>
+      <td>IPv4</td>
+      <td>10.0.0.0 – 10.255.255.255</td>
+      <td>Private network</td>
+    </tr>
+    <tr>
+      <td>IPv4</td>
+      <td>172.16.0.0 – 172.31.255.255</td>
+      <td>Private network</td>
+    </tr>
+    <tr>
+      <td>IPv4</td>
+      <td>192.168.0.0 – 192.168.255.255</td>
+      <td>Private network</td>
+    </tr>
+    <tr>
+      <td>IPv6</td>
+      <td>fc00::/7</td>
+      <td>Unique Local Address (private)</td>
+    </tr>
+    <tr>
+      <td>IPv6</td>
+      <td>fe80::/10</td>
+      <td>Link-local address (private)</td>
+    </tr>
+  </table>
+
+  <h2>Differences Between Public and Private IP</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Feature</th>
+      <th>Public IP</th>
+      <th>Private IP</th>
+    </tr>
+    <tr>
+      <td>Scope</td>
+      <td>Global (Internet)</td>
+      <td>Local (LAN)</td>
+    </tr>
+    <tr>
+      <td>Uniqueness</td>
+      <td>Must be unique across the internet</td>
+      <td>Unique only within a private network</td>
+    </tr>
+    <tr>
+      <td>Assigned by</td>
+      <td>ISP</td>
+      <td>Network administrator or router</td>
+    </tr>
+    <tr>
+      <td>Visibility</td>
+      <td>Visible on the internet</td>
+      <td>Not visible on the internet</td>
+    </tr>
+    <tr>
+      <td>Examples</td>
+      <td>203.0.113.1</td>
+      <td>192.168.1.1, 10.0.0.1</td>
+    </tr>
+  </table>
+
+
+    </div>
+<hr>
+<hr>
+
+    <div>
+        <h2>Mac Address</h2>
+        <ul>
+    <li>MAC Address is a unique identifier assigned to a network interface card (NIC).</li>
+    <li>It is used for communication within a local network (LAN).</li>
+    <li>MAC addresses are 48 bits long (6 bytes) and usually written in hexadecimal format.</li>
+    <li>Format examples: <code>00:1A:2B:3C:4D:5E</code> or <code>00-1A-2B-3C-4D-5E</code>.</li>
+    <li>It is fixed by the manufacturer and generally cannot be changed (though some devices allow spoofing).</li>
+    <li>MAC addresses are used in protocols like Ethernet and Wi-Fi.</li>
+    <li>MAC is different from IP addresses — IP addresses can change, MAC addresses are hardware-specific.</li>
+  </ul>
+
+  <h2>MAC Address Structure</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Part</th>
+      <th>Length</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td>OUI (Organizationally Unique Identifier)</td>
+      <td>24 bits (first 3 bytes)</td>
+      <td>Identifies the manufacturer of the NIC</td>
+      <td>00:1A:2B</td>
+    </tr>
+    <tr>
+      <td>NIC Specific</td>
+      <td>24 bits (last 3 bytes)</td>
+      <td>Identifies the specific device</td>
+      <td>3C:4D:5E</td>
+    </tr>
+  </table>
+
+  <h2>Types of MAC Addresses</h2>
+  <ul>
+    <li><strong>Unicast MAC:</strong> Identifies a single network interface.</li>
+    <li><strong>Multicast MAC:</strong> Identifies a group of interfaces.</li>
+    <li><strong>Broadcast MAC:</strong> Sent to all devices on the local network (FF:FF:FF:FF:FF:FF).</li>
+  </ul>
+    </div>
+
+<hr>
+<hr>
+
+    <div>
+        <h2>Port Number</h2>
+    
+  <ul>
+    <li>A port number is a 16-bit number used to identify a specific process or service on a device.</li>
+    <li>Port numbers allow multiple services to run on a single IP address.</li>
+    <li>Range of port numbers: 0 to 65535.</li>
+    <li>Used by protocols like TCP and UDP to establish communication.</li>
+    <li>Ports can be associated with well-known services (HTTP, FTP, etc.) or custom applications.</li>
+  </ul>
+
+  <h2>Types of Port Numbers</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Type</th>
+      <th>Port Range</th>
+      <th>Description</th>
+      <th>Examples</th>
+    </tr>
+    <tr>
+      <td>Well-Known Ports</td>
+      <td>0 - 1023</td>
+      <td>Reserved for standard services and protocols.</td>
+      <td>HTTP (80), HTTPS (443), FTP (21), SMTP (25)</td>
+    </tr>
+    <tr>
+      <td>Registered Ports</td>
+      <td>1024 - 49151</td>
+      <td>Assigned for user applications or services not requiring special privileges.</td>
+      <td>MySQL (3306), RDP (3389), Minecraft Server (25565)</td>
+    </tr>
+    <tr>
+      <td>Dynamic / Private Ports</td>
+      <td>49152 - 65535</td>
+      <td>Used for temporary or private connections, often assigned dynamically by the OS.</td>
+      <td>Ephemeral ports for client-server connections</td>
+    </tr>
+  </table>
+
+  <h2>Additional Notes</h2>
+  <ul>
+    <li>TCP and UDP both use port numbers, but the same port can exist on both protocols separately.</li>
+    <li>Ports below 1024 often require administrative privileges to bind.</li>
+    <li>Port scanning is used to discover open ports on a device, commonly for security auditing.</li>
+  </ul>
+    </div>
+<hr>
+<hr>
+    <div>
+        <h2>DNS (Domain Name System)</h2>
+        <p>DNS is the global, distributed system that translates human-friendly domain names (like <strong>www.google.com</strong>) into computer-friendly IP addresses (like <strong>142.250.72.206</strong>). Without DNS, you'd have to memorize IP addresses to access websites.</p>
+
+  <h2>Step 1: Checking the Local Cache</h2>
+  <p>Your computer first checks if it already has the answer:</p>
+  <ul>
+    <li><strong>Browser Cache:</strong> Stores recent DNS lookups for speed.</li>
+    <li><strong>Operating System (OS) Cache:</strong> Keeps a record of recently resolved domain names.</li>
+    <li><strong>Router Cache:</strong> Some routers store DNS records temporarily to reduce network traffic.</li>
+  </ul>
+  <p>If the IP address is found in any cache, the process stops and the browser connects immediately.</p>
+
+  <h2>Step 2: The Recursive Resolver</h2>
+  <ul>
+    <li>Your computer queries a <strong>Recursive DNS Resolver</strong>, usually provided by your ISP or public resolvers like Google (8.8.8.8) or Cloudflare (1.1.1.1).</li>
+    <li><strong>Recursive:</strong> The resolver does all the work to find the final IP address, traversing the DNS hierarchy for you.</li>
+  </ul>
+
+  <h2>Step 3: The Hierarchical Search</h2>
+  <ol>
+    <li><strong>Root Servers:</strong> The resolver starts with 13 logical root servers asking where the TLD servers are (e.g., .com, .org).</li>
+    <li><strong>TLD Servers:</strong> These servers know which authoritative servers manage specific domains (e.g., google.com).</li>
+    <li><strong>Authoritative Name Server:</strong> The final server provides the exact IP address for the requested domain.</li>
+  </ol>
+
+  <h2>Step 4: Returning the IP Address</h2>
+  <ol>
+    <li>The authoritative server sends the IP back to the recursive resolver.</li>
+    <li>The resolver caches the IP for a defined <strong>TTL (Time-To-Live)</strong>.</li>
+    <li>The resolver returns the IP to your OS, which then passes it to your browser.</li>
+  </ol>
+
+  <h2>Step 5: Establishing Connection</h2>
+  <p>The browser can now connect directly to the IP address on the appropriate port (e.g., port 443 for HTTPS) to request the website.</p>
+
+  <h2>Additional Knowledge About DNS</h2>
+
+  <h3>Types of DNS</h3>
+  <ul>
+    <li><strong>Forward DNS:</strong> Resolves domain names to IP addresses.</li>
+    <li><strong>Reverse DNS:</strong> Resolves IP addresses back to domain names.</li>
+    <li><strong>Dynamic DNS:</strong> Updates DNS records automatically when IP addresses change.</li>
+  </ul>
+
+  <h3>Common DNS Record Types</h3>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Record Type</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Maps a domain to an IPv4 address.</td>
+      <td>example.com → 93.184.216.34</td>
+    </tr>
+    <tr>
+      <td>AAAA</td>
+      <td>Maps a domain to an IPv6 address.</td>
+      <td>example.com → 2606:2800:220:1:248:1893:25c8:1946</td>
+    </tr>
+    <tr>
+      <td>CNAME</td>
+      <td>Alias of one domain pointing to another domain.</td>
+      <td>www.example.com → example.com</td>
+    </tr>
+    <tr>
+      <td>MX</td>
+      <td>Mail exchange server for handling emails.</td>
+      <td>example.com → mail.example.com</td>
+    </tr>
+    <tr>
+      <td>NS</td>
+      <td>Specifies authoritative name servers for the domain.</td>
+      <td>example.com → ns1.example.com</td>
+    </tr>
+    <tr>
+      <td>PTR</td>
+      <td>Used for reverse DNS lookups.</td>
+      <td>93.184.216.34 → example.com</td>
+    </tr>
+    <tr>
+      <td>TXT</td>
+      <td>Text records often used for SPF, DKIM, or verification.</td>
+      <td>v=spf1 include:_spf.example.com ~all</td>
+    </tr>
+  </table>
+
+  <h3>DNS Caching and Security</h3>
+  <ul>
+    <li><strong>Caching:</strong> Improves speed by storing recently looked-up addresses.</li>
+    <li><strong>TTL (Time-To-Live):</strong> Defines how long a DNS record is cached.</li>
+    <li><strong>DNS Spoofing/Poisoning:</strong> Malicious activity attempting to redirect DNS queries to fake IPs.</li>
+    <li><strong>DNSSEC:</strong> A security protocol that ensures DNS responses are authentic.</li>
+  </ul>
+
+  <h3>Summary</h3>
+  <p>DNS acts like the internet's phonebook. It allows users to access websites using human-readable names instead of memorizing IP addresses. The system is hierarchical, distributed, and optimized with caching and security mechanisms to ensure fast and reliable browsing.</p>
+
+    </div>
+
+
+
+
+
+    
+</body>
+</html>
